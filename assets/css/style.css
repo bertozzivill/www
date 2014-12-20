@@ -1,0 +1,19 @@
+body {
+  background-color: white; }
+  body header, body section.content {
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid black;
+    margin: 0 auto; }
+  body header h1 {
+    float: left; }
+  body header nav {
+    float: left; }
+  body header blockquote {
+    clear: both; }
+  body section.content section.projects {
+    width: 30%;
+    float: left; }
+  body section.content section.about_me {
+    width: 70%;
+    float: left; }
