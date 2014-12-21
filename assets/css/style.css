@@ -19,7 +19,9 @@ header {
   padding-top: 0.5rem; }
   header h1 {
     color: rgba(228, 235, 240, 0.8);
-    padding-left: 1.3rem;
+    padding-left: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
     font-family: "proxima-nova", garamond, helvetica, arial, sans-serif;
     font-weight: 500;
     font-size: 3rem; }
@@ -37,7 +39,7 @@ header {
 
 section.hero {
   height: 50rem;
-  margin-top: -10rem;
+  margin-top: -11rem;
   background-size: cover;
   background-position: 50% 50%;
   background-image: url(/assets/img/abv-fullsize.jpg);
@@ -45,7 +47,7 @@ section.hero {
 
 section.content {
   max-width: 1200px;
-  margin: 4rem auto; }
+  margin: 3rem auto 4rem; }
   section.content:after {
     content: "";
     display: block;
@@ -104,11 +106,36 @@ section.content {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%; }
+    width: 31.76157%;
+    margin-right: 0; }
     section.content .about:last-child {
       margin-right: 0; }
     section.content .about p {
       font-family: "museo-slab", garamond, serif; }
+  section.content .visualizations {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    section.content .visualizations:last-child {
+      margin-right: 0; }
+    section.content .visualizations div {
+      display: inline-block;
+      margin-right: 3rem;
+      vertical-align: top;
+      width: 12rem; }
+      section.content .visualizations div a {
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 12rem;
+        width: 12rem;
+        display: block; }
+      section.content .visualizations div span.caption {
+        display: block;
+        font-family: "proxima-nova", garamond, helvetica, arial, sans-serif;
+        font-size: 0.9rem;
+        font-weight: 700;
+        text-align: center; }
 
 footer {
   clear: both;

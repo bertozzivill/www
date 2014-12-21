@@ -8,14 +8,17 @@ $color-font: black
 $font-header: "proxima-nova", garamond, helvetica, arial, sans-serif
 $font-body: "museo-slab", garamond, serif
 
+$thumbnail-size: 12rem
+
 body
     margin: 0
-    //background-color: #f3f4f5
 header
     padding-top: 0.5rem
     h1
         color: transparentize($color-blue-light, 0.2)
-        padding-left: 1.3rem
+        padding-left: 1.1rem
+        margin-top: 1rem
+        margin-bottom: 0.2rem
         font:
             family: $font-header
             weight: 500
@@ -36,7 +39,7 @@ header
 
 section.hero
     height: 50rem
-    margin-top: -10rem
+    margin-top: -11rem
     background:
         size: cover
         position: 50% 50%
@@ -45,7 +48,7 @@ section.hero
 
 section.content
     max-width: 1200px
-    margin: 4rem auto
+    margin: 3rem auto 4rem
     
     &:after
         content: ""
@@ -104,9 +107,35 @@ section.content
 
     .about
         +span-columns(4)
+        +omega
         p
             font:
                 family: $font-body
+
+    .visualizations
+        +span-columns(8)
+        div
+            display: inline-block
+            margin-right: 3rem
+            vertical-align: top
+            width: $thumbnail-size
+            a
+                background:
+                    position: 50% 50%
+                    size: cover
+                height: $thumbnail-size
+                width: $thumbnail-size
+                display: block
+
+            span.caption
+                display: block
+                font:
+                    family: $font-header
+                    size: 0.9rem
+                    weight: 700
+                text:
+                    align: center
+
 
 footer
     clear: both
