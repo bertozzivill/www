@@ -5,13 +5,14 @@ $color-blue-dark: #4180AB
 $color-blue-light: #E4EBF0
 $color-font: black
 
-$font-header: "proxima-nova", garamond, helvetica, arial, sans-serif
+$font-header: "proxima-nova", helvetica, arial, sans-serif
 $font-body: "museo-slab", garamond, serif
 
 $thumbnail-size: 12rem
 
 body
     margin: 0
+
 header
     padding-top: 0.5rem
     h1
@@ -23,6 +24,9 @@ header
             family: $font-header
             weight: 500
             size: 3rem
+
+        +media($mobile)
+            font-size: 1.5rem
     nav
         ul
             padding: 0
@@ -38,7 +42,7 @@ header
 
 
 section.hero
-    height: 50rem
+    height: 80%
     margin-top: -11rem
     background:
         size: cover
@@ -47,9 +51,15 @@ section.hero
         repeat: no-repeat
 
 section.content
-    max-width: 1200px
+    max-width: 1000px
+    padding: 1rem
     margin: 3rem auto 4rem
-    
+
+    +media($mobile)
+        section.news, section.about, section.visualizations
+            +span-columns(4)
+            +omega
+
     &:after
         content: ""
         display: block
@@ -65,15 +75,18 @@ section.content
         margin-bottom: 2rem
 
     .news
-        +span-columns(8)
+        +span-columns(7)
         ul
             padding: 0
             li
-                +span-columns(8)
+                +span-columns(11)
                 +omega
                 list-style-type: none
                 margin-top: 1rem
                 margin-bottom: 2rem
+
+                +media($mobile)
+                    +span-columns(4)
 
                 &:first-child
                     margin-top: 0
@@ -106,17 +119,24 @@ section.content
                         text-transform: uppercase
 
     .about
-        +span-columns(4)
+        +span-columns(5)
         +omega
         p
             font:
                 family: $font-body
 
     .visualizations
-        +span-columns(8)
+        +span-columns(12)
+
+        +media($mobile)
+            text-align: center
+
+            h2
+                text-align: left
         div
             display: inline-block
             margin-right: 3rem
+            padding-bottom: 1.5rem
             vertical-align: top
             width: $thumbnail-size
             a
@@ -126,6 +146,7 @@ section.content
                 height: $thumbnail-size
                 width: $thumbnail-size
                 display: block
+
 
             span.caption
                 display: block
@@ -139,7 +160,7 @@ section.content
 
 footer
     clear: both
-    max-width: 1200px
+    max-width: 1000px
     margin: 1rem auto
 
     font:
