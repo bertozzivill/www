@@ -1,29 +1,119 @@
-$bg-color: #fff
-$screen_width: 1000px
+@import "libs/libs"
+$mobile: new-breakpoint(max-width 768px 4)
+
+$color-blue-dark: #4180AB
+$color-blue-light: #E4EBF0
+$color-font: black
+
+$font-header: "proxima-nova", garamond, helvetica, arial, sans-serif
+$font-body: "museo-slab", garamond, serif
 
 body
-    background-color: $bg-color
+    margin: 0
+    //background-color: #f3f4f5
+header
+    padding-top: 0.5rem
+    h1
+        color: transparentize($color-blue-light, 0.2)
+        padding-left: 1.3rem
+        font:
+            family: $font-header
+            weight: 500
+            size: 3rem
+    nav
+        ul
+            padding: 0
+            li
+                list-style-type: none
+                display: inline
+                a
+                    font-family: $font-header
+                    text-transform: uppercase
+                    padding-left: 1rem
+                    text-decoration: none
+                    color: transparentize($color-blue-light, 0.2)
 
-    header, section.content
-        width: 100%
-        max-width: $screen_width
-        border: 1px solid black
-        margin: 0 auto
 
-    header
-        h1
-            float: left
+section.hero
+    height: 50rem
+    margin-top: -10rem
+    background:
+        size: cover
+        position: 50% 50%
+        image: url(/assets/img/abv-fullsize.jpg)
+        repeat: no-repeat
 
-        nav
-            float: left
+section.content
+    max-width: 1200px
+    margin: 4rem auto
+    
+    &:after
+        content: ""
+        display: block
+        width: 0
+        height: 0
+        clear: both
 
-        blockquote
-            clear: both
+    h2
+        font:
+            family: $font-header
+            size: 1.3rem
+            weight: 500
+        margin-bottom: 2rem
 
-    section.content
-        section.projects
-            width: 30%
-            float: left
-        section.about_me
-            width: 70%
-            float: left
+    .news
+        +span-columns(8)
+        ul
+            padding: 0
+            li
+                +span-columns(8)
+                +omega
+                list-style-type: none
+                margin-top: 1rem
+                margin-bottom: 2rem
+
+                &:first-child
+                    margin-top: 0
+
+                a
+                    text-decoration: none
+                    color: $color-font
+
+                    span.description
+                        margin-bottom: 0.4rem
+                        display: block
+                        font:
+                            family: $font-header
+                            size: 0.9rem
+                            weight: 700
+
+                        span.journal-name
+                            font-style: italic
+                    span.title
+                        margin-bottom: 0.4rem
+                        display: block
+                        font:
+                            family: $font-body
+                            size: 1.2rem
+                    span.author
+                        display: block
+                        font:
+                            family: $font-header
+                            size: 0.9rem
+                        text-transform: uppercase
+
+    .about
+        +span-columns(4)
+        p
+            font:
+                family: $font-body
+
+footer
+    clear: both
+    max-width: 1200px
+    margin: 1rem auto
+
+    font:
+        family: $font-body
+        size: 0.9rem
+

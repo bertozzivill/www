@@ -1,19 +1,120 @@
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
 body {
-  background-color: white; }
-  body header, body section.content {
-    width: 100%;
-    max-width: 1000px;
-    border: 1px solid black;
-    margin: 0 auto; }
-  body header h1 {
-    float: left; }
-  body header nav {
-    float: left; }
-  body header blockquote {
+  margin: 0; }
+
+header {
+  padding-top: 0.5rem; }
+  header h1 {
+    color: rgba(228, 235, 240, 0.8);
+    padding-left: 1.3rem;
+    font-family: "proxima-nova", garamond, helvetica, arial, sans-serif;
+    font-weight: 500;
+    font-size: 3rem; }
+  header nav ul {
+    padding: 0; }
+    header nav ul li {
+      list-style-type: none;
+      display: inline; }
+      header nav ul li a {
+        font-family: "proxima-nova", garamond, helvetica, arial, sans-serif;
+        text-transform: uppercase;
+        padding-left: 1rem;
+        text-decoration: none;
+        color: rgba(228, 235, 240, 0.8); }
+
+section.hero {
+  height: 50rem;
+  margin-top: -10rem;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(/assets/img/abv-fullsize.jpg);
+  background-repeat: no-repeat; }
+
+section.content {
+  max-width: 1200px;
+  margin: 4rem auto; }
+  section.content:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
     clear: both; }
-  body section.content section.projects {
-    width: 30%;
-    float: left; }
-  body section.content section.about_me {
-    width: 70%;
-    float: left; }
+  section.content h2 {
+    font-family: "proxima-nova", garamond, helvetica, arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 2rem; }
+  section.content .news {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    section.content .news:last-child {
+      margin-right: 0; }
+    section.content .news ul {
+      padding: 0; }
+      section.content .news ul li {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 65.88078%;
+        margin-right: 0;
+        list-style-type: none;
+        margin-top: 1rem;
+        margin-bottom: 2rem; }
+        section.content .news ul li:last-child {
+          margin-right: 0; }
+        section.content .news ul li:first-child {
+          margin-top: 0; }
+        section.content .news ul li a {
+          text-decoration: none;
+          color: black; }
+          section.content .news ul li a span.description {
+            margin-bottom: 0.4rem;
+            display: block;
+            font-family: "proxima-nova", garamond, helvetica, arial, sans-serif;
+            font-size: 0.9rem;
+            font-weight: 700; }
+            section.content .news ul li a span.description span.journal-name {
+              font-style: italic; }
+          section.content .news ul li a span.title {
+            margin-bottom: 0.4rem;
+            display: block;
+            font-family: "museo-slab", garamond, serif;
+            font-size: 1.2rem; }
+          section.content .news ul li a span.author {
+            display: block;
+            font-family: "proxima-nova", garamond, helvetica, arial, sans-serif;
+            font-size: 0.9rem;
+            text-transform: uppercase; }
+  section.content .about {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    section.content .about:last-child {
+      margin-right: 0; }
+    section.content .about p {
+      font-family: "museo-slab", garamond, serif; }
+
+footer {
+  clear: both;
+  max-width: 1200px;
+  margin: 1rem auto;
+  font-family: "museo-slab", garamond, serif;
+  font-size: 0.9rem; }
+
+/*# sourceMappingURL=style.css.map */
