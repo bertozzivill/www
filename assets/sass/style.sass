@@ -1,9 +1,10 @@
 @import "libs/libs"
 $mobile: new-breakpoint(max-width 768px 4)
 
-$color-blue-dark: #4180AB
-$color-blue-light: #E4EBF0
-$color-font: black
+$color-dark: #444
+$color-medium: #888
+$color-light: #fff
+$color-font: #000
 
 $font-header: "proxima-nova", helvetica, arial, sans-serif
 $font-body: "museo-slab", garamond, serif
@@ -12,11 +13,12 @@ $thumbnail-size: 12rem
 
 body
     margin: 0
+    -webkit-font-smoothing: antialiased
 
 header
     padding-top: 0.5rem
     h1
-        color: transparentize($color-blue-light, 0.2)
+        color: transparentize($color-light, 0.2)
         padding-left: 1.1rem
         margin-top: 1rem
         margin-bottom: 0.2rem
@@ -38,22 +40,20 @@ header
                     text-transform: uppercase
                     padding-left: 1rem
                     text-decoration: none
-                    color: transparentize($color-blue-light, 0.2)
-
-
+                    color: transparentize($color-light, 0.2)
 section.hero
     height: 80%
     margin-top: -11rem
     background:
         size: cover
         position: 50% 50%
-        image: url(/assets/img/abv-fullsize.jpg)
+        image: url(/assets/img/abv-laugh.jpg)
         repeat: no-repeat
 
 section.content
     max-width: 1000px
     padding: 1rem
-    margin: 3rem auto 4rem
+    margin: 1rem auto 2rem
 
     +media($mobile)
         section.news, section.about, section.visualizations
@@ -113,6 +113,7 @@ section.content
                             size: 1.2rem
                     span.author
                         display: block
+                        color: $color-medium
                         font:
                             family: $font-header
                             size: 0.9rem

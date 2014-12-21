@@ -13,12 +13,13 @@ html {
   box-sizing: inherit; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  -webkit-font-smoothing: antialiased; }
 
 header {
   padding-top: 0.5rem; }
   header h1 {
-    color: rgba(228, 235, 240, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     padding-left: 1.1rem;
     margin-top: 1rem;
     margin-bottom: 0.2rem;
@@ -38,20 +39,20 @@ header {
         text-transform: uppercase;
         padding-left: 1rem;
         text-decoration: none;
-        color: rgba(228, 235, 240, 0.8); }
+        color: rgba(255, 255, 255, 0.8); }
 
 section.hero {
   height: 80%;
   margin-top: -11rem;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url(/assets/img/abv-fullsize.jpg);
+  background-image: url(/assets/img/abv-laugh.jpg);
   background-repeat: no-repeat; }
 
 section.content {
   max-width: 1000px;
   padding: 1rem;
-  margin: 3rem auto 4rem; }
+  margin: 1rem auto 2rem; }
   @media screen and (max-width: 768px) {
     section.content section.news, section.content section.about, section.content section.visualizations {
       float: left;
@@ -104,7 +105,7 @@ section.content {
           margin-top: 0; }
         section.content .news ul li a {
           text-decoration: none;
-          color: black; }
+          color: #000; }
           section.content .news ul li a span.description {
             margin-bottom: 0.4rem;
             display: block;
@@ -120,6 +121,7 @@ section.content {
             font-size: 1.2rem; }
           section.content .news ul li a span.author {
             display: block;
+            color: #888;
             font-family: "proxima-nova", helvetica, arial, sans-serif;
             font-size: 0.9rem;
             text-transform: uppercase; }
