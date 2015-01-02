@@ -119,12 +119,11 @@ section.content {
             display: block;
             font-family: "museo-slab", garamond, serif;
             font-size: 1.2rem; }
-          section.content .news ul li a span.author {
+          section.content .news ul li a span.subtitle, section.content .news ul li a span.author {
             display: block;
             color: #888;
             font-family: "proxima-nova", helvetica, arial, sans-serif;
-            font-size: 0.9rem;
-            text-transform: uppercase; }
+            font-size: 1rem; }
   section.content .about {
     float: left;
     display: block;
