@@ -16,6 +16,7 @@ body
     -webkit-font-smoothing: antialiased
 
 header
+
     padding-top: 0.5rem
     h1
         color: transparentize($color-light, 0.2)
@@ -41,6 +42,10 @@ header
                     padding-left: 1rem
                     text-decoration: none
                     color: transparentize($color-light, 0.2)
+
+body.pubs header h1, body.pubs header nav ul li a
+    color: $color-dark
+
 section.hero
     height: 80%
     margin-top: -11rem
@@ -51,7 +56,7 @@ section.hero
         repeat: no-repeat
 
 body.pubs section.hero
-    background-image: url(/assets/img/maternal_stacked.png)
+    background-image: url(/assets/img/us_le.png)
 
 section.content
     max-width: 1000px

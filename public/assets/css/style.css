@@ -41,6 +41,9 @@ header {
         text-decoration: none;
         color: rgba(255, 255, 255, 0.8); }
 
+body.pubs header h1, body.pubs header nav ul li a {
+  color: #444; }
+
 section.hero {
   height: 80%;
   margin-top: -11rem;
