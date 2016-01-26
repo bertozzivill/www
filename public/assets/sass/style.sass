@@ -50,6 +50,9 @@ section.hero
         image: url(/assets/img/abv-laugh.jpg)
         repeat: no-repeat
 
+body.pubs section.hero
+    background-image: url(/assets/img/maternal_stacked.png)
+
 section.content
     max-width: 1000px
     padding: 1rem
@@ -76,6 +79,50 @@ section.content
 
     .news
         +span-columns(7)
+        ul
+            padding: 0
+            li
+                +span-columns(11)
+                +omega
+                list-style-type: none
+                margin-top: 1rem
+                margin-bottom: 2rem
+
+                +media($mobile)
+                    +span-columns(4)
+
+                &:first-child
+                    margin-top: 0
+
+                a
+                    text-decoration: none
+                    color: $color-font
+
+                    span.description
+                        margin-bottom: 0.4rem
+                        display: block
+                        font:
+                            family: $font-header
+                            size: 0.9rem
+                            weight: 700
+
+                        span.journal-name
+                            font-style: italic
+                    span.title
+                        margin-bottom: 0.4rem
+                        display: block
+                        font:
+                            family: $font-body
+                            size: 1.2rem
+                    span.subtitle, span.author
+                        display: block
+                        color: $color-medium
+                        font:
+                            family: $font-header
+                            size: 1rem
+
+    .pubs
+        +span-columns(12)
         ul
             padding: 0
             li

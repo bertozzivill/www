@@ -1,0 +1,50 @@
+-   title   : "Global and national burden of diseases and injuries among children and adolescents between 1990 and 2013: findings from the Global Burden of Disease 2013 Study"
+    nickname: GBD Pediatrics
+    authors : Global Burden of Disease Pediatrics Collaboration
+    pubDate: 2016-01-25
+    journal : JAMA Pediatrics
+    url     : http://archpedi.jamanetwork.com/article.aspx?articleid=2481809
+
+-   title   : "Projected growth of the adult congenital heart disease population in the United States to 2050: an integrative systems modeling approach"
+    nickname: Congenital heart
+    authors : Benzinger CP, Stout K, Zaragoza-Macias E, Bertozzi-Villa A, Flaxman AD
+    pubDate: 2015-10-15
+    journal : Population Health Metrics
+    url     : http://download.springer.com/static/pdf/74/art%253A10.1186%252Fs12963-015-0063-z.pdf?originUrl=http%3A%2F%2Fpophealthmetrics.biomedcentral.com%2Farticle%2F10.1186%2Fs12963-015-0063-z&token2=exp=1453619214~acl=%2Fstatic%2Fpdf%2F74%2Fart%25253A10.1186%25252Fs12963-015-0063-z.pdf*~hmac=2dbbc4fcbbebd1dd9de16f05f6a722a19e22fe3926e68027bb593386bab32252
+
+-   title   : "Global, regional, and national disability-adjusted life years (DALYs) for 306 diseases and injuries and healthy life expectancy (HALE) for 188 countries, 1990-2013: quantifying the epidemiological transition"
+    nickname: DALY
+    authors : GBD 2013 DALYs and HALE Collaborators
+    pubDate: 2015-08-27
+    journal : The Lancet
+    url	    : http://ac.els-cdn.com/S014067361561340X/1-s2.0-S014067361561340X-main.pdf?_tid=e08177fa-623c-11e5-9a92-00000aacb361&acdnat=1443045111_4434ea9bfff2b3937e9966c43b4133cd
+
+-   title   : "Global, regional, and national incidence, prevalence, and years lived with disability for 301 acute and chronic diseases and injuries in 188 countries, 1990-2013: a systematic analysis for the Global Burden of Disease Study 2013"
+    nickname: YLD
+    authors : Global Burden of Disease Study 2013 Collaborators
+    pubDate: 2015-06-09
+    journal : The Lancet
+    url     : http://ac.els-cdn.com/S0140673615606924/1-s2.0-S0140673615606924-main.pdf?_tid=f9228278-269f-11e5-8a50-00000aab0f6c&acdnat=1436490602_2ef06b6e7ef16f26d975b772cf2e6309
+
+-   title   : Populations adapt to fluctuating selection using derived and ancestral allelic diversity
+    nickname: Stochastic switching
+    authors : Lin WS, Rocco MJ, Bertozzi-Villa A, Kussell E
+    pubDate: 2015-05-27
+    journal : Evolution
+    url     : http://onlinelibrary.wiley.com/doi/10.1111/evo.12665/epdf
+
+-   title   : "Global, regional, and national age-sex specific all-cause and cause-specific mortality for 240 causes of death, 1990-2013: a systematic analysis for the Global Burden of Disease Study 2013"
+    nickname: YLL
+    authors : GBD 2013 Mortality and Causes of Death Collaborators
+    pubDate: 2014-12-18
+    journal : The Lancet
+    url     : http://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(14)61682-2.pdf
+
+-   title   : "Global, regional, and national levels and causes of maternal mortality during 1990-2013: a systematic analysis for the Global Burden of Disease Study 2013"
+    nickname: Maternal mortality
+    authors : Kassebaum NJ, Bertozzi-Villa A, Coggeshal MS et al.
+    pubDate: 2014-06-02
+    journal : The Lancet
+    url     : http://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(14)60696-6.pdf
+
+

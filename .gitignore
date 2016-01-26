@@ -1,0 +1,4 @@
+/vendor
+.env
+.sass-cache
+*/.sass-cache/*

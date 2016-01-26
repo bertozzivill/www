@@ -49,6 +49,9 @@ section.hero {
   background-image: url(/assets/img/abv-laugh.jpg);
   background-repeat: no-repeat; }
 
+body.pubs section.hero {
+  background-image: url(/assets/img/us_le.png); }
+
 section.content {
   max-width: 1000px;
   padding: 1rem;
@@ -120,6 +123,57 @@ section.content {
             font-family: "museo-slab", garamond, serif;
             font-size: 1.2rem; }
           section.content .news ul li a span.subtitle, section.content .news ul li a span.author {
+            display: block;
+            color: #888;
+            font-family: "proxima-nova", helvetica, arial, sans-serif;
+            font-size: 1rem; }
+  section.content .pubs {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    section.content .pubs:last-child {
+      margin-right: 0; }
+    section.content .pubs ul {
+      padding: 0; }
+      section.content .pubs ul li {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 91.4702%;
+        margin-right: 0;
+        list-style-type: none;
+        margin-top: 1rem;
+        margin-bottom: 2rem; }
+        section.content .pubs ul li:last-child {
+          margin-right: 0; }
+        @media screen and (max-width: 768px) {
+          section.content .pubs ul li {
+            float: left;
+            display: block;
+            margin-right: 7.42297%;
+            width: 100%; }
+            section.content .pubs ul li:last-child {
+              margin-right: 0; } }
+        section.content .pubs ul li:first-child {
+          margin-top: 0; }
+        section.content .pubs ul li a {
+          text-decoration: none;
+          color: #000; }
+          section.content .pubs ul li a span.description {
+            margin-bottom: 0.4rem;
+            display: block;
+            font-family: "proxima-nova", helvetica, arial, sans-serif;
+            font-size: 0.9rem;
+            font-weight: 700; }
+            section.content .pubs ul li a span.description span.journal-name {
+              font-style: italic; }
+          section.content .pubs ul li a span.title {
+            margin-bottom: 0.4rem;
+            display: block;
+            font-family: "museo-slab", garamond, serif;
+            font-size: 1.2rem; }
+          section.content .pubs ul li a span.subtitle, section.content .pubs ul li a span.author {
             display: block;
             color: #888;
             font-family: "proxima-nova", helvetica, arial, sans-serif;
