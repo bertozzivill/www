@@ -44,12 +44,17 @@ index
     <h2>Visualizations</h2>
 
     <div>
+        <a style="background-image: url(/assets/img/us_map_thumb.png)" href="http://vizhub.healthdata.org/us-health-map/" target="_blank"></a>
+        <span class="caption">US Health Map <br/>(contributed data)</span>
+    </div>
+
+    <div>
         <a style="background-image: url(/assets/img/idm_ebola.png)" href="http://institutefordiseasemodeling.github.io/EVD/" target="_blank"></a>
-        <span class="caption">Ebola Cases, West Africa (Newer)</span>
+        <span class="caption">Ebola Cases, West Africa (newer)</span>
     </div>
     <div>
         <a style="background-image: url(/assets/img/sierra_leone_ebola.png)" href="http://bertozzivill.github.io/ebola_sierra_leone/" target="_blank"></a>
-        <span class="caption">Ebola Cases, Sierra Leone (Older)</span>
+        <span class="caption">Ebola Cases, Sierra Leone (older)</span>
     </div>
     <div>
         <a style="background-image: url(/assets/img/disaster.png)" href="http://bertozzivill.github.io/disaster_taxonomy/" target="_blank"></a>
