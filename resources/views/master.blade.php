@@ -20,7 +20,7 @@
         <nav>
             <ul>
             	<li><a href="/">Home</a></li>
-                <li><a href="http://www.healthdata.org/about/amelia-bertozzi-villa" target="_blank">Work</a></li>
+                <li><a href="http://idmod.org/team/research/malaria" target="_blank">Work</a></li>
                 <li><a href="/publications">Publications</a></li>
                 <li><a href="https://medium.com/@abertozz" target="_blank">Blog</a></li>
                 <li><a href="https://twitter.com/abertozz" target="_blank">@abertozz</a></li>
