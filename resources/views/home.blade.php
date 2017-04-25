@@ -44,7 +44,7 @@ index
     <h2>Visualizations</h2>
 
     <div>
-        <a style="background-image: url(/assets/img/us_map_thumb.png)" href="http://vizhub.healthdata.org/us-health-map/" target="_blank"></a>
+        <a style="background-image: url(/assets/img/us_map_thumb.png)" href="http://vizhub.healthdata.org/subnational/usa" target="_blank"></a>
         <span class="caption">US Health Map <br/>(contributed data)</span>
     </div>
 
