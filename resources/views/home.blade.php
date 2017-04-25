@@ -36,8 +36,7 @@ index
     <h2>About</h2>
     <p class="intro">
         Amelia is a disease modeler based out of Seattle, Washington. She currently works
-        as a Post-Graduate Fellow at the Institute for Disease Modeling, and has a guest faculty
-        position at the UW iSchool.
+        as a Postgraduate Research Scientist at the Institute for Disease Modeling, and teaches Data Science at the UW iSchool.
     </p>
 </section>
 <section class="visualizations">

@@ -32,7 +32,7 @@
         @yield('content')
     </section>
     <section class="map"></section>
-    <footer>&copy; 2014-2016 Amelia Bertozzi-Villa</footer>
+    <footer>&copy; 2014-2017 Amelia Bertozzi-Villa</footer>
 
     <script type="text/javascript" src="https://use.typekit.net/xqr8oql.js"></script>
     <script type="text/javascript">

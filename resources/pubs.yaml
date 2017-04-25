@@ -1,3 +1,17 @@
+-   title   : "Trends and Patterns of Disparities in Cancer Mortality Among US Counties, 1980-2014"
+    nickname: Counties cancer
+    authors : Mokdad AH, Dwyer-Lindgren L, Fitzmaurice C, Stubbs RW, Bertozzi-Villa A et al.
+    pubDate: 2017-01-24
+    journal : JAMA
+    url     : http://jamanetwork.com/journals/jama/fullarticle/2598772
+
+-   title   : "US County-Level Trends in Mortality Rates for Major Causes of Death, 1980-2014"
+    nickname: Counties parent
+    authors : Dwyer-Lindgren L, Bertozzi-Villa A, Stubbs RW et al.
+    pubDate: 2016-12-13
+    journal : JAMA
+    url     : http://jamanetwork.com/journals/jama/fullarticle/2592499
+
 -   title   : "Lessons from a decade of suicide surveillance in India: who, why and how?"
     nickname: India suicide
     authors : Dandona R, Bertozzi-Villa A, Kumar GA, Dandona L
@@ -53,5 +67,3 @@
     pubDate: 2014-06-02
     journal : The Lancet
     url     : http://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(14)60696-6.pdf
-
-
